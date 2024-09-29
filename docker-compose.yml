@@ -16,6 +16,7 @@ services:
       - "USERNAME=balena"
       - "PASSWORD=balena"
       - "ENCRIPTION_KEY=balena"
+      -  GIT_URL="https://github.com/barneymc/balena-node-red"
     cap_add:
       - SYS_RAWIO
     devices:

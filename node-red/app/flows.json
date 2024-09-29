@@ -32,7 +32,7 @@
         "y": 180,
         "wires": [
             [
-                "c768045abb38e3a2"
+                "0a18833e36afe998"
             ]
         ]
     },
@@ -51,5 +51,25 @@
         "x": 620,
         "y": 180,
         "wires": []
+    },
+    {
+        "id": "0a18833e36afe998",
+        "type": "function",
+        "z": "5d713b46afccd272",
+        "name": "fnStuff",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 180,
+        "wires": [
+            [
+                "c768045abb38e3a2"
+            ]
+        ]
     }
 ]

@@ -7,7 +7,7 @@ assets:
   repository:
     type: blob.asset
     data:
-      url: "https://github.com/balena-labs-projects/balena-node-red"
+      url: "https://github.com/barneymc/balena-node-red"
   logo:
     type: blob.asset
     data:

@@ -11,7 +11,7 @@ services:
     network_mode: host
     labels:
       io.balena.features.supervisor-api: '1'
-      io.balena.build.description: ' Node red service testing Brendan 1'
+      io.balena.build.description: ' https://github.com/barneymc/balena-node-red - Node red service testing Brendan 1'
     environment:
       - "USERNAME=balena"
       - "PASSWORD=balena"

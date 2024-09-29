@@ -50,7 +50,10 @@ module.exports = {
     debugMaxLength: 1000,
 
     // The file containing the flows. If not set, it defaults to flows_<hostname>.json
-    //flowFile: 'flows.json',
+    //BMCA - if you don't set this back to default then it woould
+    //use flows_<hostname=device UUID>.JSON. Impossible to manage with git
+    
+    flowFile: 'flows.json',
 
     // To enabled pretty-printing of the flow within the flow file, set the following
     //  property to true:

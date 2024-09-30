@@ -1,3 +1,15 @@
+# What's this: 
+V 4.0.3 node-red on Bullseye OS 18 + node.js 18 + balena running currently in Development mode. 
+Release : 3.0.4 : Balena_Release ID : 01c74ad03d10f2b4311c7ea775afea8f installed on RaspPi 4 9Board #5:Device_ID: 8ff29ed20d7cfef40e6d840ced7e1f47)
+Balena Dashboard : https://dashboard.balena-cloud.com/devices/8ff29ed20d7cfef40e6d840ced7e1f47 
+
+
+# next steps
+1. Projects : enable?
+2. Try adding full Dock3 flows.json?
+3. Add node-red-contrib-modbus automatically in the package.json?
+4. Try Production version
+
 # balena-node-red
 
 A Node-RED application with [balena-supervisor](https://balena.io/docs/reference/supervisor/supervisor-api/) flow [support](https://github.com/balena-io-projects/node-red-contrib-balena), can be managed remotely via balena [publicURL](https://balena.io/docs/learn/manage/actions/#enable-public-device-url)
